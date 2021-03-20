@@ -372,14 +372,14 @@ runtime.
 	_workspace_. The → (U+2192) is optional and cosmetic. This command is
 	equivalent to:
 
-		for_window <criteria> move container to workspace <workspace>
+		assign <criteria> move container to workspace <workspace>
 
 *assign* <criteria> [→] output left|right|up|down|<name>
 	Assigns views matching _criteria_ (see *CRITERIA* for details) to the
 	specified output. The → (U+2192) is optional and cosmetic. This command is
 	equivalent to:
 
-		for_window <criteria> move container to output <output>
+		assign <criteria> move container to output <output>
 
 *bindsym* [--whole-window] [--border] [--exclude-titlebar] [--release] [--locked] \
 [--to-code] [--input-device=<device>] [--no-warn] [--no-repeat] [Group<1-4>+]<key combo> \
